@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    width: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px 0px 32px;
+
+
+    .titleAndTabs {
+        display: flex;
+        align-items: center;
+        width: 60%;
+        gap: 144px;
+    }
+
+
+    .title {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        h1 {
+            font-size: 22px;
+        }
+
+        img {
+            height: 26px;
+            width: 26px;
+        }
+    }
+
+
+    .tabs {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        height: 80px;
+
+        button {
+            height: 100%;
+            width: fit-content;
+            border-style: solid;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-width: 1;
+        }
+    }
+
+
+    .profile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 166px;
+        height: 40px;
+        gap: 32px;
+    }
+}

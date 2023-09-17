@@ -1,0 +1,31 @@
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    .searchPost {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        input {
+            border: none;
+        }
+    }
+
+    .tabs {
+        display: flex;
+        gap: 20px;
+        height: 100%;
+        button {
+            height: 100%;
+            border-style: solid;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-width: none;
+        }
+    }
+}
