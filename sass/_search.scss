@@ -9,9 +9,10 @@
     .searchPost {
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 50px;
         input {
             border: none;
+            font-size: 16px;
         }
     }
 
@@ -21,6 +22,10 @@
         height: 100%;
         button {
             height: 100%;
+            border: none;
+        }
+        .selected {
+            border-color: #C468FF;
             border-style: solid;
             border-top: none;
             border-left: none;

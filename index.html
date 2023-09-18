@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="tabs">
-                    <button>
+                    <button class="selected">
                         <img src="images/posts_logo.png" alt="">
                         Posts
                     </button>
@@ -52,7 +52,7 @@
             </div>
 
             <div class="tabs">
-                <button>All</button>
+                <button class="selected">All</button>
                 <button>Liked</button>
                 <button>Friends</button>
                 <button>Follow</button>
@@ -66,13 +66,47 @@
         <main>
             <div class="container-left">
                 <div class="newPost">
-                    <img src="images/jennifer.png" alt="">
+                    <img src="images/jennifer.png" alt="" class="pb">
                     <input type="text" name="" id="" placeholder="What's on your mind, Jennifer?">
                     <button>
                         <img src="images/send_button.png" alt="">
                     </button>
                 </div>
-                <div class="post"></div>
+
+                <div class="post">
+                    <div class="headline">
+                        <div class="headline-profile-container">
+                            <div class="headline-profile">
+                                <img src="images/jennifer.png" alt="">
+                                <div class="headline-name">
+                                    <h3>Jennifer Smith</h3>
+                                    <h4>Just now</h4>
+                                </div>
+                            </div>
+                            <img src="images/menu.svg" alt="">
+                        </div>
+                        <div class="headline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi ea, veniam alias est odit fugit beatae autem sequi tempora optio quis tenetur cum praesentium doloribus fuga error. Voluptas, fuga?</div>
+                    </div>
+                    <div class="post-grid">
+                        <img src="images/image1.png" alt="" class="1">
+                        <img src="images/image2.png" alt="" class="2">
+                        <img src="images/image3.png" alt="" class="3">
+                        <img src="images/image4.png" alt="" class="4">
+                    </div>
+                    <div class="like-bar">
+                        <div class="left-like-bar">
+                            <div class="likes-button">
+                                <img src="images/heart.svg" alt="">
+                                <p>Like</p>
+                            </div>
+                            <div class="share-button">
+                                <img src="images/share.svg" alt="">
+                                <p>Share</p>
+                            </div>
+                        </div>
+                        <div class="like-counter">3 Likes</div>
+                    </div>
+                </div>
 
             </div>
             <div class="container-right"></div>
