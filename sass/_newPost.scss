@@ -1,0 +1,30 @@
+.newPost {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+
+    .pb {
+        height: 100px;
+        width: auto;
+        padding-right: 50px;
+    }
+
+    input {
+        width: 70%;
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+    }
+    
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        width: 70px;
+        background: linear-gradient(#C468FF, #6E91F6 );
+        border-radius: 50px;
+        margin-right: 20px;
+        border-style: none;
+    }
+}

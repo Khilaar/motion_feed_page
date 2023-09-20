@@ -106,23 +106,101 @@ main .container-left {
   padding-left: 50px;
   padding-right: 50px;
 }
-main .container-left .newPost {
+main .container-right {
+  height: 120vh;
+  width: 50%;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: 10%;
+}
+
+.post {
+  padding-top: 8vh;
+}
+.post .headline-profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post .headline-profile {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.post .headline-profile img {
+  height: 60px;
+  width: auto;
+}
+.post .headline-profile h3 {
+  font-size: 20px;
+}
+.post .headline-profile h4 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.post .headline-text {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+.post .post-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+.post .post-grid img {
+  width: 100%;
+  height: auto;
+}
+.post .like-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.post .left-like-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.post .left-like-bar .likes-button {
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.post .left-like-bar .share-button {
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.post .post-post {
+  margin-left: 50px;
+}
+.post .post-post .eleven {
+  width: 100%;
+}
+
+.newPost {
   display: flex;
   align-items: center;
   padding-bottom: 20px;
 }
-main .container-left .newPost .pb {
+.newPost .pb {
   height: 100px;
   width: auto;
   padding-right: 50px;
 }
-main .container-left .newPost input {
+.newPost input {
   width: 70%;
   background-color: transparent;
   border: none;
   font-size: 20px;
 }
-main .container-left .newPost button {
+.newPost button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,76 +210,6 @@ main .container-left .newPost button {
   border-radius: 50px;
   margin-right: 20px;
   border-style: none;
-}
-main .container-left .post {
-  padding-top: 8vh;
-}
-main .container-left .post .headline-profile-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-main .container-left .post .headline-profile {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  padding-bottom: 50px;
-  padding-top: 30px;
-}
-main .container-left .post .headline-profile img {
-  height: 60px;
-  width: auto;
-}
-main .container-left .post .headline-profile h3 {
-  font-size: 20px;
-}
-main .container-left .post .headline-profile h4 {
-  font-size: 15px;
-  font-weight: 400;
-}
-main .container-left .post .headline-text {
-  font-size: 20px;
-  font-weight: 900;
-  margin-bottom: 50px;
-}
-main .container-left .post .post-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 30px;
-}
-main .container-left .post .post-grid img {
-  width: 100%;
-  height: auto;
-}
-main .container-left .post .like-bar {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-main .container-left .post .left-like-bar {
-  display: flex;
-  justify-content: space-between;
-  width: 300px;
-}
-main .container-left .post .left-like-bar .likes-button {
-  display: flex;
-  gap: 50px;
-  font-size: 20px;
-  font-weight: 700;
-}
-main .container-left .post .left-like-bar .share-button {
-  display: flex;
-  gap: 50px;
-  font-size: 20px;
-  font-weight: 700;
-}
-main .container-right {
-  height: 120vh;
-  width: 50%;
-  padding-top: 30px;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin-right: 10%;
 }
 
 * {
